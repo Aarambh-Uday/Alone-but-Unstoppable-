@@ -299,3 +299,9 @@ margin:20px auto !important;
 border-radius:15px !important;
 border:3px solid #ffd700 !important;
   }
+
+.amazon-btn i,
+.flipkart-btn i{
+    margin-right:10px;
+    font-size:22px;
+  }
