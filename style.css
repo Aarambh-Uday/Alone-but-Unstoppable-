@@ -278,3 +278,23 @@ text-shadow:
 0 0 20px #ffd700,
 0 0 40px rgba(255,215,0,.9);
   }
+
+.tc-rao-photo{
+width:350px;
+max-width:90%;
+display:block;
+margin:35px auto;
+border-radius:20px;
+border:4px solid #ffd700;
+box-shadow:
+0 0 20px rgba(255,215,0,.5),
+0 0 50px rgba(255,215,0,.3);
+transition:0.4s ease;
+}
+
+.tc-rao-photo:hover{
+transform:scale(1.03);
+box-shadow:
+0 0 30px rgba(255,215,0,.8),
+0 0 70px rgba(255,215,0,.5);
+  }
