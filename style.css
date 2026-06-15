@@ -280,21 +280,22 @@ text-shadow:
   }
 
 .tc-rao-photo{
-width:100%;
-max-width:500px;
 display:block;
+width:100%;
+max-width:350px;
+height:auto;
 margin:30px auto;
-border-radius:25px;
+border-radius:20px;
 border:3px solid #ffd700;
 box-shadow:
-0 0 20px rgba(255,215,0,.4),
-0 0 50px rgba(255,215,0,.2);
+0 0 15px rgba(255,215,0,0.4),
+0 0 35px rgba(255,215,0,0.2);
 transition:0.4s ease;
 }
 
 .tc-rao-photo:hover{
 transform:scale(1.03);
 box-shadow:
-0 0 30px rgba(255,215,0,.8),
-0 0 70px rgba(255,215,0,.4);
+0 0 25px rgba(255,215,0,0.7),
+0 0 50px rgba(255,215,0,0.4);
   }
