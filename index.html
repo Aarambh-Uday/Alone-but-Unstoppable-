@@ -5,14 +5,125 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alone But Unstoppable | Shubham Bhardwaj</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#08111f;
+color:white;
+text-align:center;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#050b16,#0b1f3d,#1a1a1a);
+padding:20px;
+}
+
+.hero-content{
+max-width:800px;
+}
+
+h1{
+font-size:60px;
+color:#ffd700;
+margin-bottom:10px;
+}
+
+h2{
+font-size:28px;
+margin-bottom:20px;
+}
+
+.quote{
+font-size:20px;
+font-style:italic;
+margin-bottom:20px;
+}
+
+.author{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.amazon-btn{
+background:#ffd700;
+}
+
+.flipkart-btn{
+background:#00a8ff;
+color:white;
+}
+
+.about,.journey,.author-section,.footer{
+padding:80px 20px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:20px;
+width:250px;
+border-radius:15px;
+}
+
+.timeline{
+font-size:22px;
+line-height:2;
+}
+
+.footer{
+background:#050b16;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:36px;
+}
+
+h2{
+font-size:22px;
+}
+
+.quote{
+font-size:16px;
+}
+
+}
+</style>
+
 </head>
 
 <body>
 
-<div class="hero">
-
-<div class="overlay"></div>
+<section class="hero">
 
 <div class="hero-content">
 
@@ -21,8 +132,8 @@
 <h2>Turning Pain Into Power</h2>
 
 <p class="quote">
-"My pain wasn't the end.
-It was the beginning of my power."
+"When life breaks you, rebuild stronger.
+When the world ignores you, build yourself."
 </p>
 
 <p class="author">
@@ -31,19 +142,23 @@ Author : Shubham Bhardwaj
 
 <div class="buttons">
 
-<a href="#">
-<button>Buy On Amazon</button>
+<a href="https://amzn.in/d/0aSn9XX4" target="_blank">
+<button class="amazon-btn">
+Buy On Amazon
+</button>
 </a>
 
-<a href="#">
-<button>Buy On Flipkart</button>
+<a href="https://dl.flipkart.com/dl/alone-unstoppable-turning-pain-into-power/p/itm2b5d2960fb683?pid=9789347773938&lid=LSTBOK9789347773938LKZMP8&marketplace=FLIPKART" target="_blank">
+<button class="flipkart-btn">
+Buy On Flipkart
+</button>
 </a>
 
 </div>
 
 </div>
 
-</div>
+</section>
 
 <section class="about">
 
@@ -81,22 +196,22 @@ Author : Shubham Bhardwaj
 
 <div class="timeline">
 
-<div>Pain</div>
-<div>↓</div>
+Pain<br>
+↓<br>
 
-<div>Loneliness</div>
-<div>↓</div>
+Loneliness<br>
+↓<br>
 
-<div>Self Doubt</div>
-<div>↓</div>
+Self Doubt<br>
+↓<br>
 
-<div>Discipline</div>
-<div>↓</div>
+Discipline<br>
+↓<br>
 
-<div>Confidence</div>
-<div>↓</div>
+Confidence<br>
+↓<br>
 
-<div>UNSTOPPABLE</div>
+UNSTOPPABLE
 
 </div>
 
@@ -123,7 +238,5 @@ Be Inspired • Take Action • Make An Impact
 
 </section>
 
-<script src="script.js"></script>
-
 </body>
-  </html>
+</html>
